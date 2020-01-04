@@ -50,7 +50,10 @@
             android:id="@+id/button_submit_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
             android:text="@string/login_button"
+            android:textColor="@color/colorWhite"
             app:layout_constraintTop_toBottomOf="@+id/edit_text_password_login"
             tools:layout_editor_absoluteX="32dp" />
 
@@ -58,7 +61,7 @@
             android:id="@+id/textview_forgot_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="5dp"
+            android:layout_marginTop="8dp"
             android:text="@string/forgot_password"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_submit_login" />
