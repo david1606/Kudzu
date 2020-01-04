@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kudzu</string>
+    <string name="edit_text_email_login">Email</string>
+    <string name="edit_text_password_login">Contraseña</string>
+    <string name="forgot_password">He olvidado mi contraseña</string>
+    <string name="create_account">Crear nueva cuenta</string>
 </resources>
